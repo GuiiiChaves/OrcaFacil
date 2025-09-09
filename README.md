@@ -28,3 +28,34 @@ Com ele, o usuário pode cadastrar despesas, definir um orçamento mensal e acom
 
 ## 📂 Estrutura do Projeto
 
+....
+
+---
+
+## 📆 Entregas
+
+### 📍 Entrega 1
+- 📝 [Histórias de Usuário - Trello](https://trello.com/invite/b/68c06a77a8ec1f6901e94b05/ATTIf34ee5911b3fdf4a0f7dfd230ba6ec24691EE067/gestao-de-despesas-user-stories)  
+- 🎥 [Screencast - YouTube](#)  
+- 🎨 [Protótipo Lo-Fi - Figma](https://www.figma.com/design/IUs0L0fK1t2KCI7IVJvq7r/POO?node-id=2-12&p=f&m=draw)  
+
+---
+
+### 📍 Entrega 2
+- 📝 [Histórias de Usuário - Trello](#)  
+- 🎥 [Screencast - YouTube](#)  
+- 🎨 [Protótipo](#)  
+
+---
+
+### 📍 Entrega 3
+- 📝 [Histórias de Usuário - Trello](#)  
+- 🎥 [Screencast - YouTube](#)  
+- 🎨 [Protótipo](#)  
+
+---
+
+### 📍 Entrega 4
+- 📝 [Histórias de Usuário - Trello](#)  
+- 🎥 [Screencast - YouTube](#)  
+- 🎨 [Protótipo](#)  
