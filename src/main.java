@@ -235,7 +235,8 @@ public class main {
             System.out.printf("💾 %d despesas salvas no arquivo.\n", despesas.size());
             
         } catch (IOException e) {
-            System.out.println("❌ Erro ao salvar dados: " + e.getMessage());
+            System.out.println("❌ ao salvar dados: " + e.getMessage());
         }
     }
 }
+
