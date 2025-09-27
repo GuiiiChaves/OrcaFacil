@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class OrçaFacil {
+public class main {
     private static final String ARQUIVO_DADOS = "data/despesas.txt";
-    private static List<Despesa> despesas = new ArrayList<>();
+    private static List<despesa> despesas = new ArrayList<>();
     private static Scanner scanner = new Scanner(System.in);
     
     public static void main(String[] args) {
@@ -78,7 +78,8 @@ public class OrçaFacil {
                 categoria = "Outros";
             }
             
-            System.out.print("Valor (R\$): ");
+            System.out.print("Valor (R$): ");
+
             double valor = Double.parseDouble(scanner.nextLine());
             
             if (valor <= 0) {
@@ -86,7 +87,7 @@ public class OrçaFacil {
                 return;
             }
             
-            Despesa despesa = new Despesa(descricao, categoria, valor);
+            despesa despesa = new despesa(descricao, categoria, valor);
             despesas.add(despesa);
             
             System.out.println("✅ Despesa adicionada com sucesso!");
@@ -108,7 +109,7 @@ public class OrçaFacil {
             return;
         }
         
-        for (Despesa despesa : despesas) {
+        for (despesa despesa : despesas) {
             System.out.println(despesa);
         }
         
@@ -126,13 +127,13 @@ public class OrçaFacil {
         }
         
         double total = 0;
-        for (Despesa despesa : despesas) {
+        for (despesa despesa : despesas) {
             total += despesa.getValor();
         }
         
-        System.out.printf("💸 Total gasto: R\$ %.2f\n", total);
-        System.out.printf("📊 Número de despesas: %d\n", despesas.size());
-        System.out.printf("📈 Média por despesa: R\$ %.2f\n", total / despesas.size());
+           System.out.printf("💸 Total gasto: R$ %.2f\n", total);
+           System.out.printf("📊 Número de despesas: %d\n", despesas.size());
+           System.out.printf("📉 Média por despesa: R$ %.2f\n", total / despesas.size());
     }
     
     private static void removerDespesa() {
@@ -150,8 +151,8 @@ public class OrçaFacil {
             System.out.print("\nDigite o ID da despesa para remover: ");
             int id = Integer.parseInt(scanner.nextLine());
             
-            Despesa despesaParaRemover = null;
-            for (Despesa despesa : despesas) {
+            despesa despesaParaRemover = null;
+            for (despesa despesa : despesas) {
                 if (despesa.getId() == id) {
                     despesaParaRemover = despesa;
                     break;
@@ -209,7 +210,7 @@ public class OrçaFacil {
                         LocalDate data = LocalDate.parse(dados[4], 
                             DateTimeFormatter.ofPattern("dd/MM/yyyy"));
                         
-                        despesas.add(new Despesa(id, descricao, categoria, valor, data));
+                        despesas.add(new despesa(id, descricao, categoria, valor, data));
                         contador++;
                     } catch (Exception e) {
                         System.out.println("⚠️  Linha ignorada (formato inválido): " + linha);
@@ -228,7 +229,7 @@ public class OrçaFacil {
     
     private static void salvarDados() {
         try (PrintWriter writer = new PrintWriter(new FileWriter(ARQUIVO_DADOS))) {
-            for (Despesa despesa : despesas) {
+            for (despesa despesa : despesas) {
                 writer.println(despesa.paraArquivo());
             }
             System.out.printf("💾 %d despesas salvas no arquivo.\n", despesas.size());

@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-public class Despesa {
+public class despesa {
     private static int proximoId = 1;
     private int id;
     private String descricao;
@@ -9,7 +9,7 @@ public class Despesa {
     private double valor;
     private LocalDate data;
     
-    public Despesa(String descricao, String categoria, double valor) {
+    public despesa(String descricao, String categoria, double valor) {
         this.id = proximoId++;
         this.descricao = descricao;
         this.categoria = categoria;
@@ -18,7 +18,7 @@ public class Despesa {
     }
     
     // Construtor para carregar dados
-    public Despesa(int id, String descricao, String categoria, double valor, LocalDate data) {
+    public despesa(int id, String descricao, String categoria, double valor, LocalDate data) {
         this.id = id;
         this.descricao = descricao;
         this.categoria = categoria;
