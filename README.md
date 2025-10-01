@@ -52,7 +52,7 @@ Com ele, o usuário pode cadastrar despesas, definir um orçamento mensal e acom
 
 ### 📍 Entrega 3
 - 📝 [Histórias de Usuário - Trello](#)  
-- 🎥 [Screencast - YouTube](#)  
+- 🎥 [Screencast - YouTube](https://youtu.be/9CVhGFV0qb8?feature=shared)
 - 🎨 [Protótipo](#)  
 
 ---
