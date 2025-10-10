@@ -150,7 +150,7 @@ public class main {
         try {
             System.out.print("\nDigite o ID da despesa para remover: ");
             int id = Integer.parseInt(scanner.nextLine());
-            .
+            
             despesa despesaParaRemover = null;
             for (despesa despesa : despesas) {
                 if (despesa.getId() == id) {
@@ -239,5 +239,6 @@ public class main {
         }
     }
 }
+
 
 
