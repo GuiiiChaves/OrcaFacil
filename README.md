@@ -29,7 +29,24 @@ Com ele, o usuário pode cadastrar despesas, definir um orçamento mensal e acom
 ## 📂 Estrutura do Projeto
 
 ....
-
+```
+src/com/orcafacil/
+├── Main.java                    (Orquestração das 12 HUs)
+├── model/Despesa.java          (HU1, HU6, HU7)
+├── service/
+│   ├── GerenciadorOrcamento.java    (HU2, HU4, HU12)
+│   ├── RelatorioServico.java        (HU5, HU8, HU9)
+│   └── PersistenciaServico.java     (Persistência geral)
+├── ui/Menu.java                 (Interface HUs)
+├── exception/
+│   ├── DespesaException.java        (Tratamento geral)
+│   └── OrcamentoExcedidoException.java (HU4)
+├── util/
+│   ├── ValidadorDespesa.java        (Validação HUs)
+│   ├── FormatadorUtil.java          (Formatação)
+│   └── Logger.java                  (Logging de erros)
+└── export/ExportadorServico.java   (HU10, HU11)
+```
 ---
 
 ## 📆 Entregas
@@ -53,13 +70,13 @@ Com ele, o usuário pode cadastrar despesas, definir um orçamento mensal e acom
 ---
 
 ### 📍 Entrega 3
-- 📝 [Histórias de Usuário - Trello](#)  
+- 📝 [Histórias de Usuário - Trello](https://trello.com/invite/b/68c06a77a8ec1f6901e94b05/ATTIf34ee5911b3fdf4a0f7dfd230ba6ec24691EE067/gestao-de-despesas-user-stories)  
 - 🎥 [Screencast - YouTube](https://youtu.be/9CVhGFV0qb8?feature=shared)
-- 🎨 [Protótipo](#)  
+
 
 ---
 
 ### 📍 Entrega 4
-- 📝 [Histórias de Usuário - Trello](#)  
+- 📝 [Histórias de Usuário - Trello](https://trello.com/invite/b/68c06a77a8ec1f6901e94b05/ATTIf34ee5911b3fdf4a0f7dfd230ba6ec24691EE067/gestao-de-despesas-user-stories)  
 - 🎥 [Screencast - YouTube](#)  
 - 🎨 [Protótipo](#)  
