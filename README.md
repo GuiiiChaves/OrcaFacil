@@ -29,23 +29,27 @@ Com ele, o usuário pode cadastrar despesas, definir um orçamento mensal e acom
 ## 📂 Estrutura do Projeto
 
 ....
+
+## 📂 Estrutura do Projeto
+
+....
 ```
 src/com/orcafacil/
-├── Main.java                    (Orquestração das 12 HUs)
-├── model/Despesa.java          (HU1, HU6, HU7)
+├── Main.java                   
+├── model/Despesa.java          
 ├── service/
-│   ├── GerenciadorOrcamento.java    (HU2, HU4, HU12)
-│   ├── RelatorioServico.java        (HU5, HU8, HU9)
-│   └── PersistenciaServico.java     (Persistência geral)
-├── ui/Menu.java                 (Interface HUs)
+│   ├── GerenciadorOrcamento.java    
+│   ├── RelatorioServico.java        
+│   └── PersistenciaServico.java    
+├── ui/Menu.java                 
 ├── exception/
-│   ├── DespesaException.java        (Tratamento geral)
-│   └── OrcamentoExcedidoException.java (HU4)
+│   ├── DespesaException.java        
+│   └── OrcamentoExcedidoException.java 
 ├── util/
-│   ├── ValidadorDespesa.java        (Validação HUs)
-│   ├── FormatadorUtil.java          (Formatação)
-│   └── Logger.java                  (Logging de erros)
-└── export/ExportadorServico.java   (HU10, HU11)
+│   ├── ValidadorDespesa.java       
+│   ├── FormatadorUtil.java          
+│   └── Logger.java                  
+└── export/ExportadorServico.java   
 ```
 ---
 
