@@ -26,9 +26,6 @@ Com ele, o usuário pode cadastrar despesas, definir um orçamento mensal e acom
 
 ---
 
-## 📂 Estrutura do Projeto
-
-....
 
 ## 📂 Estrutura do Projeto
 
