@@ -78,7 +78,7 @@ src/com/orcafacil/
 
 - 📝 [Histórias de Usuário - Trello](https://trello.com/invite/b/68c06a77a8ec1f6901e94b05/ATTIf34ee5911b3fdf4a0f7dfd230ba6ec24691EE067/gestao-de-despesas-user-stories)  
 - 🎥 [Screencast - YouTube](https://youtu.be/9CVhGFV0qb8?feature=shared)
-- 🎥 [Screencast Testes Automatizados - YouTube]([https://youtu.be/9CVhGFV0qb8?feature=shared](https://www.youtube.com/watch?v=OIWfS2sCUW8))
+- 🎥 [Screencast Testes Automatizados - YouTube](https://www.youtube.com/watch?v=OIWfS2sCUW8)
 
 ---
 
