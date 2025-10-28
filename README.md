@@ -77,7 +77,7 @@ src/com/orcafacil/
 <img width="1244" height="508" alt="image" src="https://github.com/user-attachments/assets/9229b8a3-262e-46b9-bb10-bab328a0ba21" />
 
 - 📝 [Histórias de Usuário - Trello](https://trello.com/invite/b/68c06a77a8ec1f6901e94b05/ATTIf34ee5911b3fdf4a0f7dfd230ba6ec24691EE067/gestao-de-despesas-user-stories)  
-- 🎥 [Screencast - YouTube](https://youtu.be/9CVhGFV0qb8?feature=shared)
+- 🎥 [Screencast - YouTube](https://www.youtube.com/watch?v=fUAyHnrhs70)
 - 🎥 [Screencast Testes Automatizados - YouTube](https://www.youtube.com/watch?v=OIWfS2sCUW8)
 
 ---
