@@ -91,7 +91,7 @@ src/com/orcafacil/
 - 📝 [Histórias de Usuário - Trello](https://trello.com/invite/b/68c06a77a8ec1f6901e94b05/ATTIf34ee5911b3fdf4a0f7dfd230ba6ec24691EE067/gestao-de-despesas-user-stories)
 
   
-- 10. Removedor Despesa
+10. Removedor Despesa
 Como usuário, quero remover despesas do meu registro, para que eu mantenha apenas os gastos válidos.
 
 Critérios de Aceitação
