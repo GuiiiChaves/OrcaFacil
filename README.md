@@ -83,6 +83,61 @@ src/com/orcafacil/
 ---
 
 ### 📍 Entrega 4
-- 📝 [Histórias de Usuário - Trello](https://trello.com/invite/b/68c06a77a8ec1f6901e94b05/ATTIf34ee5911b3fdf4a0f7dfd230ba6ec24691EE067/gestao-de-despesas-user-stories)  
-- 🎥 [Screencast - YouTube](#)  
-- 🎨 [Protótipo](#)  
+
+- 🪲 GitHub Issues
+
+<img width="1373" height="150" alt="image" src="https://github.com/user-attachments/assets/8228a972-bb63-42da-a32e-ccaba38a9351" />
+
+- 📝 [Histórias de Usuário - Trello](https://trello.com/invite/b/68c06a77a8ec1f6901e94b05/ATTIf34ee5911b3fdf4a0f7dfd230ba6ec24691EE067/gestao-de-despesas-user-stories)
+
+  
+- 10. Removedor Despesa
+Como usuário, quero remover despesas do meu registro, para que eu mantenha apenas os gastos válidos.
+
+Critérios de Aceitação
+✅marcar por ID
+✅ Confirme a remoção antes de excluir
+✅ Exibir pré-
+✅ Mensagem de sucesso/cancelamento
+✅ Atualizar arquivo de dados
+Implementação no Código
+Classe : Main.java- métodoremoverDespesa()
+Busca : Iteração sobre lista para encontrar por ID
+Confirmação : Validação de entrada do usuário
+Remoção :List.remove(despesa)
+Persistência :PersistenciaServico.salvar()
+
+11. Filtrar Despesas por Período
+Como usuário, quero filtrar minhas despesas por período específico, para que eu possa analisar gastos em semanas ou meses específicos.
+
+Critérios de Aceitação
+✅ Opção para últimos 7 dias
+✅ Opção para últimos 30 dias
+✅ Opção para mês atual
+✅ Opção para período customizado (dados inicial e final)
+✅ Exibir quantidade de despesas despesas
+Implementação no Código
+Classe : Main.java- métodoexibirFiltroData()
+Serviço : RelatorioServico.filtrarUltimosDias(), filtrarMesAtual(),filtrarPorPeriodo()
+API : LocalDate, YearMonthpara manipulação de dados
+Comparação : isBefore(), isAfter(),equals()
+
+12. Visualizar estatísticas interessantes
+Como usuário, quero ver estatísticas detalhadas dos meus gastos, para que eu entenda melhores meus padrões de consumo.
+
+Critérios de Aceitação
+✅ Mostrar gasto total
+✅ Mostrar quantidade de despesas
+✅ Calcular valor mínimo
+✅ Calcular valor máximo
+✅ Calcular média de gastos
+✅ Calcular mediana
+✅ identificar categoria com maior gasto
+Implementação no Código
+Classe : Main.java- métodoexibirEstatisticas()
+serviço :RelatorioServico.calcularEstatisticas()
+Cálculos : Métodos para média, mínimo, máximo, mediana
+Retorno : Map<String, Object>com todas as estatísticas
+Formatação : Exibição de valores com 2 casas decimais
+
+- 🎥 [Screencast - YouTube](https://www.youtube.com/watch?v=fUAyHnrhs70)  
